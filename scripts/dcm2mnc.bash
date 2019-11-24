@@ -36,7 +36,7 @@ egrep -v ${exceptions} fileNames.txt > allNames.txt
 # exceptions (put in manually)
 
 # appending exception file names to overall list
-#cat exceptions.txt >> allNames.txt
+cat exceptions.txt >> allNames.txt
 
 # now, allNames.txt has all the file names we will be using
 

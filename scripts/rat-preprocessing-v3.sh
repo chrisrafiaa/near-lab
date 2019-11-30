@@ -1,6 +1,7 @@
 #!/bin/bash
 
-# Credit to Gabriel A. Devenyi, a member of the CoBrA Lab
+# code of this script was written by Gabriel A. Devenyi, a member of the CoBrA Lab.
+# Link: https://github.com/CoBrALab/minc-toolkit-extras/blob/master/rat-preprocessing-v3.sh
 
 #preprocessing script for rat brains, using Fischer344 template and MINC files converted from DICOM from Paravision 5.x
 

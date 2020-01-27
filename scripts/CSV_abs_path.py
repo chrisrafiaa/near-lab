@@ -41,7 +41,7 @@ with open(csv_name1, mode='w') as csv_file:
 
 data = csv.reader(open(csv_name1),delimiter=',')
 sortedlist = sorted(data, key=operator.itemgetter(4),reverse=True)    # 0 specifies according to first column we want to sort
-#now write the sorte result into new CSV file
+#now write the sorted result into new CSV file
 with open(csv_name2, mode="w") as f:
 	fileWriter = csv.writer(f, delimiter=',')
 	for row in sortedlist:
